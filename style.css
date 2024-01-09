@@ -44,6 +44,7 @@ height: 600px;
   align-items: center;
   justify-content: center;
   height: 800px;
+  
 }
 
 .deals-heading {
@@ -250,4 +251,81 @@ height: 72px;
 border-radius: 0px 50px 50px 0px;
 background: #F00;
 font-size: 15px;
+}
+
+
+/* Footer Section Designed */
+footer{
+  width: 1600px;
+height: 700px;
+background: #070211;
+}
+#contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addresss{
+  color: #FFF;
+width: 375px;
+height: 80px;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+padding: 120px 0 50px 140px;
+ /* 166.667% */
+}
+.tele-web{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+padding: 120px 290px 0 0; /* 166.667% */
+}
+.web{
+  padding-bottom: 50px;
+}
+hr{
+  width: 1320px;
+height: 1px;
+background: rgba(255, 255, 255, 0.15);
+}
+#icon{
+  display: flex;
+  justify-content: center;
+}
+.marka{
+  width: 64px;
+  height: 64px;
+  padding: 10px;
+  margin: 35px 0;
+}
+.copy-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right{
+  color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 50px 0 120px 140px;
+}
+
+#unsubs{
+  color: #FFF;
+padding: 50px 140px 120px 0;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }

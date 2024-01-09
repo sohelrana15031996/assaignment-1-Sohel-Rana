@@ -118,10 +118,13 @@ header {
   text-align: center;
   font-family: Inter;
   font-size: 20px;
+  background: transparent;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  padding-top: 20px;
+  border: none;
 }
 
 .Party-Image {
@@ -175,7 +178,7 @@ header {
 .round {
   display: flex;
   align-items: center;
-  margin: 120px 140px 0;
+  margin: 120px 140px 160px;
   width: 1320px;
   height: 463px;
 
@@ -197,6 +200,7 @@ header {
   justify-content: left;
   padding-left: 0px;
   margin-left: 0px;
+  padding-bottom: 30px;
 }
 
 .text1-heading {
@@ -207,6 +211,7 @@ header {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
+  padding-bottom: 30px;
 }
 
 .text1-para {
@@ -247,6 +252,7 @@ header {
   line-height: normal;
   padding-left: 30px;
   padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .text2-para {
@@ -259,6 +265,7 @@ header {
   /* 160% */
   width: 276px;
   padding-left: 30px;
+  padding-bottom: 30px;
 }
 
 .text2__image {
@@ -266,6 +273,7 @@ header {
   height: 140px;
   padding-left: 30px;
 }
+
 
 
 /* Portfolio Section Design */

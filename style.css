@@ -1,12 +1,13 @@
-body{
+body {
   width: 1600px;
-height: 7335px;
+  height: 7335px;
 }
+
 header {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("Images/Banner.png");
   background-size: cover;
   width: 1320px;
-height: 600px;
+  height: 600px;
   border-radius: 16px;
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -44,7 +45,8 @@ height: 600px;
   align-items: center;
   justify-content: center;
   height: 800px;
-  
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .deals-heading {
@@ -132,12 +134,49 @@ height: 600px;
   align-items: center;
 }
 
+
+
+/* Bonus Section Design */
+.event {
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  width: 1320px;
+  height: 482px;
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 385px 0;
+}
+
+.date-time {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+.event-time {
+  color: #F00;
+}
+
+.join-btn {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #F00;
+}
+
 /* Portfolio Section Design */
 
 .Portfolio {
   margin: 120px 140px;
-
 }
+
 
 .Portfolio-subheading {
   color: #F00;
@@ -147,6 +186,7 @@ height: 600px;
   font-weight: 500;
   line-height: normal;
 }
+
 
 .Portfolio-heading {
   color: #070211;
@@ -176,13 +216,18 @@ height: 600px;
   max-width: 1320px;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
-.Portfolio-images .PortfolioImage {
-  width: 30%;
+.PortfolioImage {
+  max-width: 31.05%;
   height: 450px;
-  margin: 10px;
+  margin: 30px;
   margin-left: 0;
+}
+
+.PortfolioImage:hover {
+  box-shadow: 3px 3px 4px black;
 }
 
 /* Newsletter Section Design */
@@ -195,137 +240,154 @@ height: 600px;
   margin: 0 auto;
 }
 
-.email-icon{
+.email-icon {
   width: 150px;
-height: 150px;
-margin: 0 auto;
-padding-top: 80px;
-top: 20px;
-margin-bottom: 0;
+  height: 150px;
+  margin: 0 auto;
+  padding-top: 80px;
+  top: 20px;
+  margin-bottom: 0;
 }
-.newsletter-heading{
+
+.newsletter-heading {
   margin-top: 80px;
   margin-bottom: 10px;
   color: #070211;
-text-align: center;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
 }
-.newsletter-para{
+
+.newsletter-para {
   color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
 }
-#email-subscribe{
+
+#email-subscribe {
   margin: 45px 335px 80px 335px;
   display: flex;
 }
-#user-email{
+
+#user-email {
   width: 648px;
-height: 72px;
-border-radius: 50px 0 0 50px;
-background: #FFF;
+  height: 72px;
+  border-radius: 50px 0 0 50px;
+  background: #FFF;
 }
-input[placeholder]{
+
+input[placeholder] {
   color: rgba(7, 2, 17, 0.30);
 
-text-align: center;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding: 0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0;
 }
-#subscriber{
+
+#subscriber {
   width: 210px;
-height: 72px;
-border-radius: 0px 50px 50px 0px;
-background: #F00;
-font-size: 15px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  font-size: 15px;
 }
 
 
 /* Footer Section Designed */
-footer{
+footer {
   width: 1600px;
-height: 700px;
-background: #070211;
+  height: 700px;
+  background: #070211;
 }
-#contact{
+
+#contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.addresss{
+
+.addresss {
   color: #FFF;
-width: 375px;
-height: 80px;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px;
-padding: 120px 0 50px 140px;
- /* 166.667% */
+  width: 375px;
+  height: 80px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 120px 0 50px 140px;
+  /* 166.667% */
 }
-.tele-web{
+
+.tele-web {
   color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px;
-padding: 120px 290px 0 0; /* 166.667% */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 120px 290px 0 0;
+  /* 166.667% */
 }
-.web{
+
+.web {
   padding-bottom: 50px;
 }
-hr{
+
+hr {
   width: 1320px;
-height: 1px;
-background: rgba(255, 255, 255, 0.15);
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
 }
-#icon{
+
+#icon {
   display: flex;
   justify-content: center;
 }
-.marka{
+
+.marka {
   width: 64px;
   height: 64px;
   padding: 10px;
   margin: 35px 0;
 }
-.copy-right{
+
+.copy-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.right{
+
+.right {
   color: #FFF;
 
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding: 50px 0 120px 140px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 50px 0 120px 140px;
 }
 
-#unsubs{
+#unsubs {
   color: #FFF;
-padding: 50px 140px 120px 0;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  padding: 50px 140px 120px 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

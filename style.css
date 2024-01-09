@@ -171,6 +171,103 @@ header {
   background: #F00;
 }
 
+/* Bonus Section2 design */
+.round {
+  display: flex;
+  align-items: center;
+  margin: 120px 140px 0;
+  width: 1320px;
+  height: 463px;
+
+}
+
+.round-text1 {
+  padding-right: 50px;
+  justify-content: left;
+}
+
+.text1-subheading {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  justify-content: left;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.text1-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.text1-para {
+  color: rgba(7, 2, 17, 0.60);
+  width: 393px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.round-image {
+  padding: 0 100px;
+  max-width: 463px;
+  max-height: 463px;
+
+}
+
+.round-image img {
+  width: 363px;
+  height: 363px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 15px solid #F00;
+  padding: 60px;
+}
+
+.text2 {
+  padding-left: 30px;
+}
+
+.text2-year {
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.text2-para {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  width: 276px;
+  padding-left: 30px;
+}
+
+.text2__image {
+  width: 140px;
+  height: 140px;
+  padding-left: 30px;
+}
+
+
 /* Portfolio Section Design */
 
 .Portfolio {
@@ -190,7 +287,6 @@ header {
 
 .Portfolio-heading {
   color: #070211;
-
   font-family: Merriweather;
   font-size: 48px;
   font-style: normal;
